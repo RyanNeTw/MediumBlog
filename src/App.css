@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.leaflet-container {
+  width: 50wh; 
+  height: 50vh;
+}
+.leaflet-marker-icon {
+  background-image: url('https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon-2x.png');
+  background-size: cover;
+}
+.leaflet-marker-pane > * {
+  -webkit-transition: transform .3s linear;
+  -moz-transition: transform .3s linear;
+  -o-transition: transform .3s linear;
+  -ms-transition: transform .3s linear;
+  transition: transform .3s linear;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
